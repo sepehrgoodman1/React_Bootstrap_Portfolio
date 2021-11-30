@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+  font-family:'Pt sans', 'Arial Narrow', Arial, sans-serif;
+}
+#root{
+  background-color: floralwhite;
+}
+.navbar-nav > li > a{
+  border-bottom: 0.1875rem solid rgba(255, 255, 255, 0);
+}
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus , .navbar-nav > li > a:hover{
+  border-bottom: 0.1875rem  solid #0B5ED7; 
+}
+.header-wrapper{
+  position: relative;
+  background: url(./images/laptop.jpg) no-repeat ;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+.main-info > h1{
+  text-shadow: 3px 3px 2px black;
+}
+.main-info > a{
+  width: 15%;
+}
+.img-sepehr{
+  width: 25%;
+}
+#AboutMe h1{
+  color: #212529;
+}
+#Services{
+}
+.services-card{
+  border-bottom: 3px solid #0B5ED7;
+  background-color: white;
+  cursor: pointer;
+}
+.services-card:hover{
+  background-color:#0B5ED7;
+  border-bottom: 3px solid #212529;
+
+}
+.services-card > div{
+  width: 70px;
+  height: 70px;
+  background-color: #0B5ED7;
+}
+.services-card:hover > div{
+  width: 70px;
+  height: 70px;
+  background-color: white;
+}
+.icon-card{
+  color: white;
+}
+.services-card:hover .icon-card{
+  color: #0B5ED7;
+}
+.card{
+  background-color: floralwhite;
+}
+.img-port{
+  cursor: pointer;
+  border-left: 4px solid #0B5ED7;
+  border-right: 4px solid #0B5ED7;
+}
+#Footer{
+  background: url(./images/BgFooter.jpg) no-repeat center;
+  background-size: cover;
+  height: 50vh;
+}
+
+.tales {
+  width: 100%;
+}
+.carousel-inner{
+  width:100%;
+}
+#demoCarousel{
+  max-width: 459px;
+  margin: auto;
+}
+@media (max-width: 767px){
+  #demoCarousel{
+    max-width: 100%;
+    margin: auto;
+  }
+  .img-sepehr{
+    width: 50%;
+  }
+  .main-info > a{
+    width: 35%;
+  }
+}
